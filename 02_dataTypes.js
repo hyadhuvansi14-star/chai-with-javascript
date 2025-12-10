@@ -15,4 +15,15 @@ let isloggedIn = false // boolean datatype
 // undefined => value is not asigned or not given
 // symbol =>usally use for uniqueness (use mostally in react)
 // object
-console.log(typeof name)
+console.log(typeof name)//string
+console.log(typeof age);//number
+console.log(typeof isloggedIn);//boolean
+console.log(typeof 123456789012345678901234567890123456789n); //bigint
+console.log(typeof null); //object
+console.log(typeof undefined); //undefined  
+console.log(typeof Symbol("id")); //symbol
+console.log(typeof { name: "hitesh", age: 28 }); //object
+console.log(typeof [1, 2, 3, 4]); //object
+console.log(typeof Object);//function
+console.log(typeof function () { });//function
+
