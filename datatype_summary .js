@@ -28,13 +28,14 @@ const myFunction = function () {
 };
 
 
-console.log(typeof score);
-console.log(typeof scoreValue);
-console.log(typeof isLoggedIn);
-console.log(typeof outsideTemp);
-console.log(typeof userEmail);
-console.log(typeof id);
-console.log(typeof bigNumber);
-console.log(typeof heros);
-console.log(typeof myobject);
-console.log(typeof myFunction);
+console.log(typeof score);//number
+console.log(typeof scoreValue);//number
+console.log(typeof isLoggedIn);//boolean
+console.log(typeof outsideTemp);//object
+console.log(typeof userEmail);//undefined
+console.log(typeof id);//symbol
+console.log(typeof bigNumber);//bigInt
+console.log(typeof heros);array
+console.log(typeof myobject);//object
+console.log(typeof myFunction);//function object
+
