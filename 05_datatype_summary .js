@@ -2,12 +2,12 @@
 
 // 7 types : String, Number, Boolean, Null, Undefined, Symbol, BigInt
 
-// const score = 100; // number
-// const scoreValue = 100.3; // number
+const score = 100; // number
+const scoreValue = 100.3; // number
 
-// const isLoggedIn = false; // boolean
-// const outsideTemp = null; // object
-// let userEmail;
+const isLoggedIn = false; // boolean
+const outsideTemp = null; // object
+let userEmail;
 
 const id = Symbol("12345"); // symbol
 const anotherId = Symbol("12345"); // symbol
@@ -18,23 +18,24 @@ console.log(id === anotherId); // false
 
 // array,functions,objects
 
-// const heros = ["shaktiman", "naagraj", "doga"]; // array - object
-// const myobject = {
-// name: "Hariom",
-// age: 19,
-// // };
-// const myFunction = function () {
-//     console.log("hello world");
-// };
+const heros = ["shaktiman", "naagraj", "doga"]; // array - object
+const myobject = {
+name: "Hariom",
+age: 19,
+};
+const myFunction = function () {
+    console.log("hello world");
+};
 
 
-// console.log(typeof score);
-// console.log(typeof scoreValue);
-// console.log(typeof isLoggedIn);
-// console.log(typeof outsideTemp);
-// console.log(typeof userEmail);
-// console.log(typeof id);
-// console.log(typeof bigNumber);
-// console.log(typeof heros);
-// console.log(typeof myobject);
-// console.log(typeof myFunction);
+console.log(typeof score);//number
+console.log(typeof scoreValue);//number
+console.log(typeof isLoggedIn);//boolean
+console.log(typeof outsideTemp);//object
+console.log(typeof userEmail);//undefined
+console.log(typeof id);//symbol
+console.log(typeof bigNumber);//undefined
+console.log(typeof heros);//object
+console.log(typeof myobject);//object
+console.log(typeof myFunction);//function
+
