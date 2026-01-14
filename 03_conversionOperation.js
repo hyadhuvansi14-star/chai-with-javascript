@@ -1,6 +1,6 @@
-let score = false;
-console.log(typeof score); //boolean
-console.log(typeof (score));//boolean
+let score = "100abc";
+console.log(typeof score); //string
+console.log(typeof (score));//string
 let valueInNumber = Number(score); //conversion to number
 console.log(typeof valueInNumber); //number
 console.log(score); //100abc
@@ -69,3 +69,4 @@ let gamecounter = 100
 gamecounter++; // post-increment
 
 console.log(gamecounter);
+
