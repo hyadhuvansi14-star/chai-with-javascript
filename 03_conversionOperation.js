@@ -6,26 +6,27 @@ console.log(typeof valueInNumber); //number
 console.log(score); //100abc
 console.log(valueInNumber); //NaN
 // ## boolean conversion ##
-let isloggedIn = undefined;// console.log(typeof isloggedIn);
+let isloggedIn = undefined;
+// console.log(typeof isloggedIn);
 let booleanInString = String(isloggedIn); //conversion to string
 let booleanLoggedIn = Boolean(isloggedIn); //conversion to boolean
-console.log(typeof booleanInString);
-console.log(booleanInString);
-console.log(typeof booleanLoggedIn);
-console.log(booleanLoggedIn)
+console.log(typeof booleanInString);//string
+console.log(booleanInString);//undefined
+console.log(typeof booleanLoggedIn);//boolean
+console.log(booleanLoggedIn)//false
 let valueInboolean = Boolean(isloggedIn); //false
 console.log(typeof valueInboolean);
 console.log(valueInboolean);
 // ## string conversion ##
 let num = 12;
-console.log(typeof num);
+// console.log(typeof num);
 let stringNumber = String(num); //conversion to string
 console.log(typeof stringNumber);
 console.log(stringNumber);
 
 
 operations
-console.log(2 % 3)     // addition
+console.log(2 % 3)     // modules
 console.log(2 + 3)     // addition
 console.log(2 - 3)     // subtraction
 console.log(2 * 3)     // multiplication
@@ -69,4 +70,5 @@ let gamecounter = 100
 gamecounter++; // post-increment
 
 console.log(gamecounter);
+
 
